@@ -12,13 +12,12 @@ h3, p, h1 {
   background-image: url("./bliss.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 0 300px 100px 300px;
+  padding: 50px 300px 100px 300px;
 }
 
 aside {
   grid-area: 1 / 1 / 4 / 2;
-  background-color: azure;
-  margin: 50px 20px 0 0;
+  margin: 0 20px 0 0;
 }
 
 .intro-section {
@@ -29,6 +28,10 @@ aside {
   grid-area: 4 / 2 / 6 / 7;
 }
 
-.window {
+.main > div {
   margin-top: 50px;
+}
+
+aside > div.wrapper > div {
+  margin-bottom: 10px;
 }
